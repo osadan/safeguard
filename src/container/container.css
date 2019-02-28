@@ -1,0 +1,71 @@
+.container {
+	margin-top: 100px;
+}
+.container header {
+	display: flex;
+	justify-content: space-between;
+}
+
+.load-projects {
+    display: flex;
+    align-items: flex-end;
+
+}
+
+.load-projects button {
+    width: 100px;
+    height:25px;
+    border-radius: 8px;
+    color: white;
+    background: blue;
+    border-style:none;
+    position: relative;
+    top: -10px;
+}
+
+table {
+    width: 800px;
+}
+
+table thead tr {
+	background: lightgray;
+	margin: 10px 0;
+}
+
+table tbody tr {
+	margin: 10px 0;
+	box-shadow: 0px 2px 0px 0px rgba(0, 0, 0, 0.99);
+}
+
+table tbody tr td {
+    padding: 10px 0;
+}
+
+table tbody tr:hover {
+	background: gray;
+	color: white;
+}
+
+table tbody tr.status:hover {
+	background: none;
+}
+
+.status div {
+	border-radius: 8px;
+	color: white;
+	width: 100px;
+	padding: 12px;
+}
+
+.New {
+	background: lightseagreen;
+}
+.Approved {
+	background: black;
+}
+.Rejected {
+	background: lightcoral;
+}
+.Completed {
+	background: lightgreen;
+}
